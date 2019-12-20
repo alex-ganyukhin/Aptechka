@@ -58,6 +58,7 @@ Aptechka.loadedAuras = {}
 local loadedAuras = Aptechka.loadedAuras
 local customBossAuras = helpers.customBossAuras
 local default_blacklist = helpers.auraBlacklist
+Aptechka.default_blacklist = default_blacklist
 local blacklist
 local importantTargetedCasts = helpers.importantTargetedCasts
 local inCL = setmetatable({},{__index = function (t,k) return 0 end})
